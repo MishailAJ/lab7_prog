@@ -40,9 +40,7 @@ public class ServerMain {
                     throw new RuntimeException(e);
                 }
             });
-            System.out.println(1);
             t2.start();
-            System.out.println(2);
             t1.start();
         } catch (Exception e) {
             System.out.println(e);

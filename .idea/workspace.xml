@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1871877-4e01-47ac-bd65-ada03734bedb" name="Changes" comment="Fixed a problem with receiving data on the ClientSerializer">
+    <list default="true" id="b1871877-4e01-47ac-bd65-ada03734bedb" name="Changes" comment="First">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ClientMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ClientMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/functional_classes/ClientReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/functional_classes/ClientReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/functional_classes/Store.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/client/functional_classes/ClientManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/functional_classes/ClientManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/client/ClientMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/ClientMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/client/functional_classes/ClientReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/functional_classes/ClientReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/client/functional_classes/ClientSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/client/functional_classes/ClientSerializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/server/functional_classes/ServerSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/server/functional_classes/ServerSerializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/functional_classes/CommandManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/functional_classes/CommandManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/functional_classes/Synchronizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/functional_classes/Synchronizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/client/functional_classes/Store.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/server/functional_classes/CommandManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/server/functional_classes/CommandManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/server/functional_classes/Synchronizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/server/functional_classes/Synchronizer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/ServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/ServerMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,23 +38,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Михаил/Documents/ИТ/Актуальные лабы/lab6_prog&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-18",
+    "last_opened_file_path": "C:/Users/Михаил/Documents/ИТ/Актуальные лабы/lab7_prog_copy",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Михаил\Documents\ИТ\Актуальные лабы\lab6_prog" />
@@ -153,7 +151,9 @@
       <workItem from="1677646571036" duration="121000" />
       <workItem from="1677653864463" duration="5693000" />
       <workItem from="1677659734177" duration="1516000" />
-      <workItem from="1677736557024" duration="1943000" />
+      <workItem from="1677736557024" duration="2210000" />
+      <workItem from="1677742635329" duration="264000" />
+      <workItem from="1677743222645" duration="1655000" />
     </task>
     <task id="LOCAL-00001" summary="Some changes">
       <created>1677133308135</created>
@@ -246,7 +246,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677659585503</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Created checking the file format, existence of file and ability to read and execute file.&#10;That's last commit of this project (most probably)">
+      <created>1677742233165</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677742233165</updated>
+    </task>
+    <task id="LOCAL-00015" summary="First">
+      <created>1677743707655</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677743707655</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +284,9 @@
     <MESSAGE value="The project is divided into modules" />
     <MESSAGE value="It remains to do asynchrony" />
     <MESSAGE value="Almost all" />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost all" />
+    <MESSAGE value="Created checking the file format, existence of file and ability to read and execute file.&#10;That's last commit of this project (most probably)" />
+    <MESSAGE value="First" />
+    <option name="LAST_COMMIT_MESSAGE" value="First" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lab6_prog$ServerMain.ic" NAME="ServerMain Coverage Results" MODIFIED="1677080284457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
