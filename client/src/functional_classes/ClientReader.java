@@ -137,7 +137,6 @@ public class ClientReader {
         return answers;
     }
 
-   // execute_script C:\Users\Михаил\Downloads\image_2023-02-23_20-54-17.png
     public void readFile(String fileName) {
         try {
             if (!chosenScanner.equals(new Scanner(System.in)) && executedFiles.contains(fileName)) {
